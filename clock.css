@@ -1,0 +1,21 @@
+:root {
+  --transition-time: 500ms;
+}
+
+.clock {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+  user-select: none;
+  transition: all var(--transition-time);
+}
+
+.clock_content {
+  font-size: max(50px, 10vh);
+  -webkit-filter: invert(100%);
+  filter: 100%;
+  transition: all var(--transition-time);
+}
